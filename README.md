@@ -31,12 +31,12 @@ python chat_augmentation.py --base_path '/path/to/base_text_file' --save_path '/
 | --base_path | augment하고자하는 텍스트가 들어있는 .csv 파일 경로 |
 | --save_path | augment 완료된 텍스트를 저장할 .csv 파일 경로 |
 | --n_iters | 1 set의 augmentation을 반복할 횟수 |
-| ----syn_replace_num | 1 iteration동안 SR을 반복할 횟수 |
+| --syn_replace_num | 1 iteration동안 SR을 반복할 횟수 |
 | --rand_ins_num | 1 iteration동안 RI을 반복할 횟수 |
 | --rand_swap_num | 1 iteration동안 RS를 반복할 횟수 |
 
 
 ### 출력
-현재 augmentation을 수행하고 있는 문장과 그 문장의 label, 그리고 3개의 augmentation 예시 결과 등을 확인할 수 있습니다.  <br>
-![console output for augmentation process](image.png)  <br>
-Augmentation이 완료되면 `--save_path`에서 지정한 경로에 최종 augmentation된 데이터가 저장됩니다.
+콘솔에서 다음과 같이 현재 augmentation을 수행하고 있는 문장, 해당 문장의 label, 일부 augmentation 결과를 확인할 수 있습니다. <br>
+<img src="image.png" alt="console output for augmentation process" height="170"> <br> <br>
+모든 과정이 완료되면 `--save_path`에서 지정한 경로에 augmented data가 저장됩니다.
