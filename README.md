@@ -18,7 +18,7 @@ git clone https://github.com/dev-munchkins/chatbot-augmentation.git
 ```
 
 <b>(2) base_text_file 생성</b>  <br>
-파일을 실행하기 전에, augment하고자 하는 텍스트들이 저장된 .csv 파일을 생성해야 합니다. csv 파일의 columns는 'text'와 'label'임을 간주합니다. 'text'열에는 입력 데이터를, 'label'은 해당 텍스트를 분류하고자 하는 class 번호를 작성하면 됩니다.
+파일을 실행하기 전에, augment하고자 하는 텍스트들이 저장된 .csv 파일을 생성해야 합니다. csv 파일의 columns는 'text'와 'label'임을 가정합니다. 'text'열에는 입력 데이터를, 'label'은 해당 텍스트를 분류하고자 하는 class 번호를 작성하면 됩니다.
 
 <b>(3) cmd 실행</b>  <br>
 ```python
