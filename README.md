@@ -1,7 +1,7 @@
 # chatbot-augmentation
 <b> [캡스톤디자인프로젝트] Chatbot 학습을 위한 Data Augmentation </b>
 
-챗봇 모델의 <b>학습 데이터</b>를 구축하기 위해 채팅 데이터 증강 기능을 제공하는 repo입니다. <br>
+챗봇 모델의 <b>학습 데이터</b>를 구축하기 위해 텍스트 데이터 증강 기능을 제공하는 repo입니다. <br>
 이 repo에서 제공하는 augmentation은 다음과 같습니다: <br>
 <b>1. Synonym Replacement(SR)</b>: Korean WordNet 데이터셋에 존재하는 동의어로 특정 단어를 치환합니다. <br>
 <b>2. Random Insertion(RI)</b>: 입력 데이터의 일부를 무작위로 다시 삽입합니다. <br>
