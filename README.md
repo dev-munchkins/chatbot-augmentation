@@ -3,7 +3,7 @@
 
 챗봇 모델의 <b>학습 데이터</b>를 구축하기 위해 채팅 데이터 증강 기능을 제공하는 repo입니다. <br>
 이 repo에서 제공하는 augmentation은 다음과 같습니다: <br>
-<b>1. Synonym Replacement(SR)</b>: Koran WordNet 데이터셋에 존재하는 동의어로 특정 단어를 치환합니다. <br>
+<b>1. Synonym Replacement(SR)</b>: Korean WordNet 데이터셋에 존재하는 동의어로 특정 단어를 치환합니다. <br>
 <b>2. Random Insertion(RI)</b>: 입력 데이터의 일부를 무작위로 다시 삽입합니다. <br>
 <b>3. Random Swap(RS)</b>: 입력 데이터 중 일부의 순서를 치환합니다. <br>
 <b>4. Back Translation</b>: 입력 데이터를 다른 언어로 번역한 후, 번역된 텍스트를 다시 한국어로 번역합니다. <br>
